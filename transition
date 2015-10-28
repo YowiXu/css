@@ -1,0 +1,18 @@
+1.基本用法
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+	.box1{width:30px;height:30px;background:#ddd;}
+	.box1:hover{width:1000px;height:100px;background:#fcc;}
+	.box1{transition:1s width,1s 3s height} /* 1s 10s[延迟] width,1s 5s[延迟] height */
+	</style>
+</head>
+<body>
+	<div class="box1"></div>
+</body>
+</html>
+2.离开触发
+  即 先进先出，后进后出原则。
