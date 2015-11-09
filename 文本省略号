@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<style type="text/css">
+	#box{width:200px;height:200px;border:1px solid #ccc;margin:50px auto;}
+	p.txt1{
+		text-overflow:ellipsis; /*文本溢出:省略*/
+		overflow:hidden;
+		width:100px;
+		white-space:nowrap; /*空余空间:不换行*/
+	}
+</style>
+<body>
+<div id="box">
+	<p class="txt1">这里是测试，请注意了！这里是测试。</p>
+</div>
+</body>
+</html>
